@@ -1,2 +1,14 @@
 # matrix2json
-Benchmarks of matrix to JSON conversion performance in various languages
+Benchmarks of matrix to JSON conversion performance in various languages / packages
+
+Background about the context, methodology etc. in this [blog post](https://www.openriskmanagement.com/representing-matrices-as-json-objects-part-1/)
+
+NB: Work in Progress
+
+| Package        | T_out         | T_in          | Size     |
+|----------------|---------------|---------------|----------|
+| jsonlite       | 19.23444 secs | 25.10679 secs | 238.9 MB |
+| RJSONIO        | 19.62544 secs | 23.94082 secs | 238.9 MB |
+| rjson          | 4.120749 secs | 16.52509 sec  | 238.9 MB |
+| numpy / json   | 5.80395 secs  | 5.51479 secs  | 238.9 MB |
+| pandas.to_json | 7.97321 secs  | 14.95067 secs | 238.9 MB |
