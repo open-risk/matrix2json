@@ -1,9 +1,11 @@
 import Pkg; Pkg.add("JSON")
 import JSON
+
 ###################
 ### Write data ####
 ###################
 # dictionary to write
+
 dict1 = Dict("param1" => 1, "param2" => 2,
             "dict" => Dict("d1"=>1.,"d2"=>1.,"d3"=>1.))
             
@@ -22,7 +24,7 @@ open("write_read.json", "w") do f
 dict2 = Dict()
 open("write_read.json", "r") do f
     global dict2
-    dicttxt = readall(f)  # file information to string
+    dicttxt = read(f)  # file information to string
     dict2=JSON.parse(dicttxt)  # parse and transform data
 end
 

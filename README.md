@@ -1,4 +1,5 @@
 # matrix2json
+
 Benchmarks of matrix to JSON conversion performance in various languages / packages
 
 Background about the context, methodology etc. in this [blog post](https://www.openriskmanagement.com/representing-matrices-as-json-objects-part-1/)
@@ -12,3 +13,20 @@ NB: Work in Progress
 | rjson          | 4.120749 secs | 16.52509 sec  | 238.9 MB |
 | numpy / json   | 5.80395 secs  | 5.51479 secs  | 238.9 MB |
 | pandas.to_json | 7.97321 secs  | 14.95067 secs | 238.9 MB |
+
+
+## Installation
+
+### C++ Benchmarks
+
+If not already present, install the following:
+
+#### Armadillo
+
+* sudo apt-get install libarmadillo-dev
+* Version 10 of [armadillo](https://arma.sourceforge.net/) is used
+
+#### Eigen
+
+* sudo apt-get install libeigen3-dev
+* Version 3.4

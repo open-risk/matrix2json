@@ -8,7 +8,7 @@ import time
 M = 5000
 N = M * M
 a = np.arange(1, N + 1).reshape(M, M)
-print(a[M-1, M-1])
+print(a[M - 1, M - 1])
 start = time.perf_counter()
 # Serialize
 s_out = json.dumps(a.tolist())
@@ -20,7 +20,7 @@ end1time = time.perf_counter()
 # Load from disk
 f = open("a.json", "r")
 m = np.array(json.loads(f.read()))
-print(m[M-1, M-1])
+print(m[M - 1, M - 1])
 end2time = time.perf_counter()
 print('Output:', end1time - start)
 print('Input:', end2time - end1time)
