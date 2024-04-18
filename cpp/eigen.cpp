@@ -1,3 +1,15 @@
+/**
+ ################################################################################
+ ##
+ ##  Copyright (C) 2022-2024 Open Risk (www.openriskmanagement.com)
+ ##
+ ##  This file is part of the matrix2json project.
+ ##
+ ##  Licensed under the GPL;
+ ##  you may not use this file except in compliance with the License.
+ ################################################################################
+ */
+
 ///
 /// File:   eigen.cpp
 /// Author: Open Risk
