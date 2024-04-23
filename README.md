@@ -2,7 +2,10 @@
 
 Benchmarks of matrix to JSON conversion performance in various languages / packages
 
-Background about the context, methodology etc. in this [blog post](https://www.openriskmanagement.com/representing-matrices-as-json-objects-part-1/)
+Background about the context, methodology etc. in these blog posts:
+
+* [Part 1](https://www.openriskmanagement.com/representing-matrices-as-json-objects-part-1/)
+* [Part 2](https://www.openriskmanagement.com/representing-matrices-as-json-objects-part-2/)
 
 NB: Work in Progress
 
